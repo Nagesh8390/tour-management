@@ -10,9 +10,6 @@ dotenv.config()
 const app =express()
 const port = process.env.PORT || 8000
 
-// app.get("/",(req,res)=>{
-//     res.send("api is working");
-// })
 mongoose.set("strictQuery", false);
 const connect = async()=>{
     try{
@@ -40,5 +37,4 @@ app.listen(port, ()=>{
 
 app.get('/', (req, res) => {
     res.send('Backend is working!');
-  });
-  
+});
