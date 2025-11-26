@@ -1,0 +1,16 @@
+{
+  "name": "tour-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx kill-port 4000 && node index.js"
+  }
+,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "kill-port": "^2.0.1"
+  }
+}
